@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "ice cream";
+    src: url(../public/fonts/Ice\ Cream\ Cake.otf);
+}
+
+@font-face {
+    font-family: "oblique";
+    src: url(../public/fonts/GeosansLight-Oblique.ttf);
+}
+
+h3 {
+    font-family: "ice cream";
+    font-size: xx-large;
+}
+
+p {
+    font-family: "oblique";
+    font-weight: bolder;
+}
+
+.menu {
+    background-color: rgba(255, 238, 0, 0.35);
+}
+
+body {
+    background-color: rgba(150, 153, 122, 0.583);
+}
+
+.menu:hover {
+    box-shadow: 5px 5px 5px 5px rgba(31, 30, 27, 0.604);
+}
+
+img:hover {
+    box-shadow: 5px 5px 5px 5px rgba(31, 30, 27, 0.604);
+}
+
+.caixa:hover {
+    box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.371);
+}
+
+span:hover {
+    box-shadow: 5px 5px 3px 3px rgba(0, 0, 0, 0.371);
+}

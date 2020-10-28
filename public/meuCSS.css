@@ -1,0 +1,35 @@
+    @font-face {
+        font-family: "retro";
+        src: url(../public/fonts/The\ Wanters\ DEMO.ttf);
+    }
+    
+    @font-face {
+        font-family: "maquina";
+        src: url(../public/fonts/ATypewriterForMe.ttf);
+    }
+    
+    h3 {
+        font-family: "retro";
+        color: black;
+    }
+    
+    p {
+        font-family: "maquina";
+        font-size: medium;
+        color: crimson;
+        font-weight: bolder;
+    }
+    
+    hr {
+        color: rgb(2, 2, 2);
+    }
+    
+    .menu {
+        background-image: url(../public/img/fundo\ its.jpg);
+        padding: 10px;
+    }
+    
+    .menu:hover {
+        box-shadow: 10px 10px 10px 10px rgb(141, 51, 51);
+        padding: 20px;
+    }

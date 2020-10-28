@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "retro";
+    src: url(../public/fonts/The\ Wanters\ DEMO.ttf);
+}
+
+@font-face {
+    font-family: "maquina";
+    src: url(../public/fonts/ATypewriterForMe.ttf);
+}
+
+.menu {
+    background-color: rgba(233, 150, 73, 0.808);
+}
+
+h3 {
+    color: black;
+    font-family: "retro";
+}
+
+p {
+    font-family: "maquina";
+}
